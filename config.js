@@ -5,15 +5,15 @@ const DATABASE_URL = process.env.DATABASE_URL || "./database.db";
 module.exports = {
  SESSION_ID: process.env.SESSION_ID || "",
  BOT_INFO: process.env.BOT_INFO || "ᴀsᴛʀᴏ;ғxᴏᴘ-ᴍᴅ", //YourName;BotName;Image/VideoLimk
- SUDO: process.env.SUDO || "2348039607375",
+ SUDO: process.env.SUDO || "919728714060",
  LOGS: toBool(process.env.LOGS) || true,
  ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
  LANG: process.env.LANG || "EN",
  HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
  BRANCH: "master",
  WARN_COUNT: 3,
- AUTHOR: process.env.AUTHOR || "ғxᴏᴘ-ᴍᴅ",
- PACKNAME: process.env.PACKNAME || "ғxᴏᴘ-ᴍᴅ",
+ AUTHOR: process.env.AUTHOR || "sanju-ᴍᴅ",
+ PACKNAME: process.env.PACKNAME || "sanju-ᴍᴅ",
  WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
  GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
  ANTILINK: toBool(process.env.ANTI_LINK) || false,
